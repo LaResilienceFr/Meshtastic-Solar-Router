@@ -20,3 +20,4 @@ Ce projet utilise les composants suivants :
 
 💡 *Astuce : Pensez à vérifier la polarité des connecteurs DC avant la mise sous tension.*
 
+![CN3791](Images/CN3791.jpg)
