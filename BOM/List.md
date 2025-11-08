@@ -1,5 +1,5 @@
 
-# Liste du matériel
+# Liste du matériel / Bill of Materials
 
 Ce projet utilise les composants suivants :
 
