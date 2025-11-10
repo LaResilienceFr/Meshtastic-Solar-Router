@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "owner": "Sebastien",
+    "region": "EU868",
+    "notes": "Configuration complète avec Power / Channels"
+  },
+  "network": {
+    "role": "router",
+    "beaconIntervalSec": 1800
+  },
+  "power": {
+    "enablePowerSaving": true,
+    "shutdownOnBatteryDelay": 0,
+    "noConnectionBluetoothDisabled": 60,
+    "superDeepSleepDuration": 86400,
+    "lightSleepDuration": 300,
+    "minimumWakeTime": 10,
+    "batteryWarnVoltage": 3.5,
+    "batteryCriticalVoltage": 3.3
+  },
+  "channels": [
+    {
+      "name": "Fr_Balise",
+      "frequency": 868100000,
+      "enabled": true,
+      "psk": "",
+      "bandwidth": 125000,
+      "spreadingFactor": 9,
+      "codingRate": 5,
+      "preambleLength": 8,
+      "crcEnabled": true,
+      "description": "Primary beacon channel"
+    },
+    {
+      "name": "Fr_EMCOM",
+      "frequency": 868300000,
+      "enabled": true,
+      "psk": "",
+      "bandwidth": 125000,
+      "spreadingFactor": 9,
+      "codingRate": 5,
+      "preambleLength": 8,
+      "crcEnabled": true,
+      "description": "Emergency comms channel"
+    },
+    {
+      "name": "Fr_BlaBla",
+      "frequency": 868500000,
+      "enabled": true,
+      "psk": "",
+      "bandwidth": 125000,
+      "spreadingFactor": 9,
+      "codingRate": 5,
+      "preambleLength": 8,
+      "crcEnabled": true,
+      "description": ""
+    },
+    {
+      "name": "Fr_Perso",
+      "frequency": 868800000,
+      "enabled": true,
+      "psk": "",
+      "bandwidth": 125000,
+      "spreadingFactor": 9,
+      "codingRate": 5,
+      "preambleLength": 8,
+      "crcEnabled": true,
+      "description": "Personnel"
+    }
+  ]
+}
