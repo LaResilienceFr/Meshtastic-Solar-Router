@@ -15,6 +15,7 @@ Ce projet utilise les composants suivants :
 - **1 × Tube aluminium** Ø **8 mm ext / 6 mm int**  
 - **2 × Presse-étoupes**  
 - **1 × Boîtier** (étanche ou semi-étanche selon usage)
+- **1 x [Impression 3D bouclier solaire](https://github.com/LaResilienceFr/Meshtastic-Solar-Router/blob/main/BOM/Bouclier-solaire.zip)**  
 
 ---
 
